@@ -54,7 +54,7 @@ const HamburgerMenu = (props) => {
                     }}
 
                 >
-                    Skills Studio
+                    Hello Wahyu
                 </motion.p>
             </Link>
         </div>
