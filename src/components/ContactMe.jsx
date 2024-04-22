@@ -1,5 +1,4 @@
 import React, { useRef, useState } from 'react'
-import emailjs from '@emailjs/browser';
 import ImageContactMe from '../assets/images/profile/contact-me.svg'
 import { motion, MotionConfig } from 'framer-motion';
 import { useEffect } from 'react';

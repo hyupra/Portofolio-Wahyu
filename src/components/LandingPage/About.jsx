@@ -292,7 +292,7 @@ const About = () => {
 
                             onMouseEnter={() => setState({ ...state, github: !github })}
                             onMouseLeave={() => setState({ ...state, github: !github })}
-                            onClick={() => linkSocmed('https://github.com/IlhamSoejudAlkahfiardy')}
+                            onClick={() => linkSocmed('https://github.com/hyupra')}
 
                             className='w-12 h-12 p-2 flex bg-slate-100 rounded-md border border-zinc-950/30'>
                             <FaGithub className='inline-block w-fit h-full text-zinc-900' />
@@ -324,68 +324,7 @@ const About = () => {
                             )}
                         </motion.div>
 
-                        <motion.div
-                            initial={{
-                                y: 100,
-                                opacity: 0
-                            }}
-
-                            whileInView={{
-                                y: 0,
-                                opacity: 1,
-                                transition: {
-                                    type: 'spring',
-                                    duration: 1.5,
-                                    delay: .2
-                                }
-                            }}
-
-                            whileHover={{
-                                cursor: 'pointer',
-                                width: 130
-                            }}
-
-                            whileTap={{
-                                cursor: 'pointer',
-                                width: 130
-                            }}
-
-                            layout
-
-                            onMouseEnter={() => setState({ ...state, gitlab: !gitlab })}
-                            onMouseLeave={() => setState({ ...state, gitlab: !gitlab })}
-                            onClick={() => linkSocmed('https://gitlab.com/alkahfiardyIlhamSoejud')}
-
-                            className='w-12 h-12 p-2 flex bg-slate-100 rounded-md border border-zinc-950/30'>
-                            <FaGitlab className='inline-block w-fit h-full text-orange-600' />
-
-                            {gitlab && (
-                                <motion.div
-                                    initial={{
-                                        width: 0,
-                                        opacity: 0
-                                    }}
-
-                                    animate={{
-                                        width: 65,
-                                        opacity: 1
-                                    }}
-
-                                    exit={{
-                                        width: 0,
-                                        opacity: 0
-                                    }}
-
-                                    transition={{
-                                        type: 'spring'
-                                    }}
-
-                                    className='w-fit flex justify-end items-center'>
-                                    <p className='text-sm'>GitLab</p>
-                                </motion.div>
-                            )}
-
-                        </motion.div>
+                       
 
                         <motion.div
                             initial={{
@@ -417,7 +356,7 @@ const About = () => {
 
                             onMouseEnter={() => setState({ ...state, ig: !ig })}
                             onMouseLeave={() => setState({ ...state, ig: !ig })}
-                            onClick={() => linkSocmed('https://www.instagram.com/ilhamsoejud/')}
+                            onClick={() => linkSocmed('https://www.instagram.com/wahyuuprygg/')}
 
                             className='w-12 h-12 p-2 flex bg-slate-100 rounded-md border border-zinc-950/30'>
 
@@ -479,7 +418,7 @@ const About = () => {
 
                             onMouseEnter={() => setState({ ...state, linkedin: !linkedin })}
                             onMouseLeave={() => setState({ ...state, linkedin: !linkedin })}
-                            onClick={() => linkSocmed('https://www.linkedin.com/in/ilhamsoejudalkahfiardy/')}
+                            onClick={() => linkSocmed('https://www.linkedin.com/in/wahyuuprygg/')}
 
                             className='w-12 h-12 p-2 flex bg-slate-100 rounded-md border border-zinc-950/30'>
                             <FaLinkedin className='inline-block w-fit h-full text-blue-700' />
@@ -511,68 +450,7 @@ const About = () => {
                             )}
                         </motion.div>
 
-                        <motion.div
-                            initial={{
-                                y: 100,
-                                opacity: 0
-                            }}
-
-                            whileInView={{
-                                y: 0,
-                                opacity: 1,
-                                transition: {
-                                    type: 'spring',
-                                    duration: 1.5,
-                                    delay: .5
-                                }
-                            }}
-
-                            whileHover={{
-                                cursor: 'pointer',
-                                width: 150
-                            }}
-
-                            whileTap={{
-                                cursor: 'pointer',
-                                width: 150
-                            }}
-                            layout
-
-                            onMouseEnter={() => setState({ ...state, telegram: !telegram })}
-                            onMouseLeave={() => setState({ ...state, telegram: !telegram })}
-                            onClick={() => linkSocmed('https://t.me/IlhamSoejudA')}
-
-                            className='w-12 h-12 p-2 flex bg-slate-100 rounded-md border border-zinc-950/30'>
-                            <FaTelegram className='inline-block w-fit
-                 h-full text-blue-500' />
-
-                            {telegram && (
-                                <motion.div
-                                    initial={{
-                                        width: 0,
-                                        opacity: 0
-                                    }}
-
-                                    animate={{
-                                        width: 85,
-                                        opacity: 1
-                                    }}
-
-                                    exit={{
-                                        width: 0,
-                                        opacity: 0
-                                    }}
-
-                                    transition={{
-                                        type: 'spring'
-                                    }}
-
-                                    className='w-fit flex justify-end items-center'>
-                                    <p className='text-sm'>Telegram</p>
-                                </motion.div>
-                            )}
-
-                        </motion.div>
+                        
 
                     </div>
                 </motion.div>
