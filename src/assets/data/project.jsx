@@ -17,7 +17,7 @@ import ImageLMSKlojen from "../images/project/image/LMSKlojen.png";
 import ImageStudentLMS from "../images/project/image/student-LMS.jpg";
 import ImageTeacherLMS from "../images/project/image/teacher-LMS.jpg";
 import ImageAuction from "../images/project/image/auction.png";
-import ImagePorto from "../images/project/image/porto.png";
+import ImagePorto from "../images/project/image/portowahyu.png";
 
 // Stack
 import { FaReact } from "react-icons/fa";
